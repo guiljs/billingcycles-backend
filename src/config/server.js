@@ -3,7 +3,7 @@ const port = 3003
 const bodyParser = require('body-parser')
 const express = require('express')
 const cors = require('./cors')
-const expressInt = require('express-query-int')
+const expressInt = require('express-query-int') //Para aceitar int na querystring
 const server = express()
 
 server.use(bodyParser.urlencoded({ extended: true }))
